@@ -1,29 +1,29 @@
 Fase 1 - Setup Inicial:
-    ☐ Faça um fork desse repositório para a sua conta github
-    ☐ Clone o seu repositório para a sua máquina local
-    ☐ Inicie um projeto node na pasta deste projeto
+    ✔ Faça um fork desse repositório para a sua conta github @done(22-02-24 16:40)
+    ✔ Clone o seu repositório para a sua máquina local @done(22-02-24 16:40)
+    ✔ Inicie um projeto node na pasta deste projeto @done(22-03-03 18:13)
     
     Verificações: 
-        ☐ Se o comando npm init criou um arquivo package.json na raíz do seu projeto
+        ✔ Se o comando npm init criou um arquivo package.json na raíz do seu projeto @done(22-03-03 18:13)
 
 
 
 Fase 2 - Criação da aplicação (Criado o sevidor web no app.js):
-    ☐ Instale a biblioteca express no projeto
-    ☐ Faça com que o git ignore a pasta node_modules
-    ☐ Crie um arquivo chamado app.js na raíz do seu projeto
-    ☐ No app.js:
-        ☐ Importe o express
-        ☐ Crie um aplicação web com o express e guarde-a numa constante app.
-        ☐ Crie uma rota get para o endereço '/'.
+    ✔ Instale a biblioteca express no projeto @done(22-03-03 18:14)
+    ✔ Faça com que o git ignore a pasta node_modules @done(22-03-03 18:21)
+    ✔ Crie um arquivo chamado app.js na raíz do seu projeto @done(22-03-03 18:22)
+    ✔ No app.js: @done(22-03-04 16:50)
+        ✔ Importe o express @done(22-03-03 18:22)
+        ✔ Crie um aplicação web com o express e guarde-a numa constante app. @done(22-03-04 16:37)
+        ✔ Crie uma rota get para o endereço '/'. @done(22-03-04 16:49)
             Quando acessada, essa rota deve responder um 'Olá, visitante!' para o cliente
-        ☐ Escreva uma linha que iniciará o servidor na porta 3000 (app.listen)
+        ✔ Escreva uma linha que iniciará o servidor na porta 3000 (app.listen) @done(22-03-04 16:50)
             Quando o servidor iniciar, ele deve escrever no console: "Servidor rodando na porta 3000"
 
     Verificações:
-        ☐ Execute o comando node app.js para iniciar o servidor. Você deve ver a mensagem "Servidor rodando na porta 3000" no console
-        ☐ Abra o navegador e visite o endereço http://localhost:3000. Deve aparecer no navegador a frase "Olá, visitante!"
-        ☐ Verifique se a pasta node_modules aparece listada no comando git status
+        ✔ Execute o comando node app.js para iniciar o servidor. Você deve ver a mensagem "Servidor rodando na porta 3000" no console @done(22-03-04 16:51)
+        ✔ Abra o navegador e visite o endereço http://localhost:3000. Deve aparecer no navegador a frase "Olá, visitante!" @done(22-03-04 16:51)
+        ✔ Verifique se a pasta node_modules aparece listada no comando git status @done(22-03-04 17:04)
 
 
 
